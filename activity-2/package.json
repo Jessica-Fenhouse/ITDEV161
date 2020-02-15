@@ -1,10 +1,12 @@
 {
-  "name": "itdev161",
+  "name": "itdev161-assignment-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "assignment-2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node - r esm server.js",
+    "stop": "nodemon - r esm server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/Jessica-Fenhouse/ITDEV161/issues"
   },
-  "homepage": "https://github.com/Jessica-Fenhouse/ITDEV161#readme"
+  "homepage": "https://github.com/Jessica-Fenhouse/ITDEV161#readme",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "config": "3.2.5",
+    "esm": "3.2.25",
+    "express": "4.17.1",
+    "express-validator": "6.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "5.1.0",
+    "nodemon": "2.0.2"
+  }
 }
